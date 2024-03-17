@@ -1,0 +1,373 @@
+@media only screen and (max-width: 1179px) {
+    .max-w {
+        max-width: 980px;
+
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .max-w {
+        max-width: 740px;
+    }
+
+    .get-started {
+        width: 500px;
+    }
+
+    .get-started>h1 {
+        font-size: 45px;
+    }
+
+    .get-started>h4 {
+        font-size: 18px;
+    }
+
+    .get-started>p {
+        font-size: 14px;
+    }
+
+    .form>input {
+        width: 60%;
+    }
+
+    .form>button {
+        width: 39%;
+    }
+
+
+
+    .plan-box,
+    .reason-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .questions-box {
+        align-items: center;
+    }
+
+    .plans-container>h2,
+    .memebership>h2,
+    .reasons>h2,
+    .faq-container>h2 {
+        text-align: center;
+    }
+
+    .game-image>img {
+        left: 90px;
+        top: 35px;
+    }
+
+    .content>h1 {
+        font-size: 20px;
+    }
+
+    .content>p {
+        font-size: 14px;
+    }
+
+    .register {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form2 {
+        flex-direction: column;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 810px) {
+    .max-w {
+        max-width: 640px;
+
+    }
+
+    .question {
+        height: 55px;
+    }
+
+    .form2>button {
+        width: 31%;
+    }
+}
+
+
+
+@media only screen and (max-width: 810px) {
+    .max-w {
+        max-width: 480px;
+    }
+
+    .get-started {
+        width: 400px;
+    }
+
+    .get-started>h1 {
+        font-size: 35px;
+    }
+
+    .get-started>h4 {
+        font-size: 15px;
+    }
+
+    .get-started>p {
+        font-size: 12px;
+    }
+
+    .form>input {
+        width: 100%;
+    }
+
+    .form>button {
+        width: 50%;
+    }
+
+    .pack {
+        width: 230px;
+        height: 250px;
+    }
+
+    .game-box {
+        flex-direction: column-reverse;
+    }
+
+    .game-image,
+    .content {
+        width: 100%;
+    }
+
+    .game-image>img {
+        transform: scale(2.4) rotate(-2deg);
+    }
+
+    .rbox {
+        width: 230px;
+        font-size: 11px;
+    }
+
+    .question {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .form2>input {
+        width: 98%;
+    }
+
+    .form2>button {
+        width: 45%;
+    }
+}
+
+
+@media only screen and (max-width: 525px) {
+    .max-w {
+        max-width: 350px;
+    }
+
+    .logo>img {
+        width: 115px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .get-started {
+        width: 300px;
+    }
+
+    .get-started>h1 {
+        font-size: 28px;
+    }
+
+    .form>button {
+        font-size: 15px;
+    }
+
+    .box {
+        left: -6vw;
+        width: 112vw;
+    }
+
+    .pack {
+        width: 100%;
+    }
+
+    .plans-container>h2,
+    .memebership>h2,
+    .reasons>h2,
+    .faq-container>h2 {
+        font-size: 20px;
+    }
+
+    .game-image>img {
+        transform: scale(1.5) translateX(-35px) translateY(-20px);
+    }
+
+    .content {
+        padding: 40px 30px;
+    }
+
+    .rbox {
+        width: 100%;
+    }
+
+    .question {
+        font-size: 16px;
+    }
+
+    .question>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .form2>button {
+        width: auto;
+        font-size: 18px
+    }
+
+    .main-footer-menu {
+        padding-inline: 0px;
+        gap: 0px;
+    }
+
+    .main-footer-menu p {
+        font-size: 14px;
+      }
+
+    .main-footer-menu>div {
+        width: 300px;
+    }
+
+    .d2 {
+        display: block;
+    }
+
+    footer {
+        align-items: start;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    .max-w {
+        max-width: 270px;
+    }
+
+    .nav {
+        padding-inline: 10px;
+    }
+
+    .logo>img {
+        width: 90px;
+    }
+
+    .lang-signin>button {
+        font-size: 13px;
+    }
+
+    .get-started {
+        width: 200px;
+    }
+
+    .get-started>h1 {
+        font-size: 19px;
+    }
+
+    .get-started>h4 {
+        font-size: 12px;
+        padding-block: 20px;
+    }
+
+    .get-started>p {
+        font-size: 10px;
+    }
+
+    .form>button {
+        font-size: 10px;
+        width: auto;
+    }
+
+    .form>input::placeholder {
+        font-size: 12px;
+    }
+
+    .box {
+        left: -9vw;
+        width: 118vw;
+    }
+
+    .plans-container>h2,
+    .memebership>h2,
+    .reasons>h2,
+    .faq-container>h2 {
+        font-size: 18px;
+    }
+
+    .pack {
+        height: 230px;
+    }
+
+    .pack>h2 {
+        font-size: 20px;
+    }
+
+    .pack>p {
+        font-size: 16px;
+    }
+
+
+    .pack:hover {
+        transform: scale(0.97);
+    }
+
+    .question {
+        font-size: 13px;
+    }
+
+    .question>img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .rbox {
+        font-size: 10px;
+        height: 230px;
+    }
+
+    .game-image>img {
+        transform: scale(1.5) translateX(-85px) translateY(-20px);
+    }
+
+    .register>p {
+        font-size: 13px;
+    }
+
+    .form2>button {
+        font-size: 15px;
+    }
+
+    .main-footer-menu {
+        gap: 3px;
+        padding: 0px;
+    }
+
+    .main-footer-menu>div {
+        width: 150px;
+    }
+
+    .main-footer-menu p {
+        font-size: 12px;
+    }
+
+    footer {
+        align-items: start;
+    }
+}
